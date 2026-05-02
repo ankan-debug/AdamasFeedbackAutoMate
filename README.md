@@ -12,11 +12,49 @@ Python automation tool for Adamas University student portal tasks.
 - Python 3.8+
 - Virtual environment (recommended)
 
-Install dependencies:
+CLONE ALL THE COMMAND IN CMD:::::::::::::::
+```bash
+git clone https://github.com/ankan-debug/AdamasFeedbackAutoMate.git
+```
+
+```bash
+cd AdamasFeedbackAutoMate
+```
+
+```bash
+python -m venv myenv
+```
+
+```bash
+myenv\Scripts\activate
+```
 
 ```bash
 pip install -r requirements.txt
 ```
+
+```bash
+notepad config.json
+```
+
+```bash
+notepad main.py
+```
+
+
+```bash
+python main.py
+```
+
+
+```bash
+Thank You Ankan 
+```
+
+
+
+
+
 
 ## Configuration
 
@@ -95,3 +133,8 @@ When `debug.enabled` is true, the following are saved to the `debug/` directory:
 
 
 ### Made with 💗 by Ankan
+
+## FOr any dispute Contact
+```bash
+sahaankan628@gmail.com
+```
