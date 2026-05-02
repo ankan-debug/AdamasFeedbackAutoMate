@@ -695,6 +695,7 @@ def main() -> None:
 
     print("=" * 60)
     print("   Adamas University - Automation Tools")
+    print("   crafted with love by Ankan")
     print("=" * 60)
     print()
     print("  [1] Submit Feedback")
