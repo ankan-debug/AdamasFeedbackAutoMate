@@ -92,4 +92,6 @@ When `debug.enabled` is true, the following are saved to the `debug/` directory:
 
 - Credentials are stored in plain text in `config.json`
 - Add `config.json` to `.gitignore` if versioning code
-- Never commit credentials to version control
+
+
+### Made with 💗 by Ankan
