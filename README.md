@@ -37,6 +37,9 @@ pip install -r requirements.txt
 notepad config.json
 ```
 
+##Just save the notepad file without any changes
+
+
 ```bash
 notepad main.py
 ```
