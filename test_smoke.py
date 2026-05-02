@@ -6,6 +6,7 @@ import os
 import random
 import re
 import time
+import getpass
 from datetime import datetime
 from pathlib import Path
 
@@ -695,9 +696,26 @@ def main() -> None:
 
     print("=" * 60)
     print("   Adamas University - Automation Tools")
+    print("=" * 60)
     print("   crafted with love by Ankan")
+    print("_" * 60)
+    print("_" * 60)
+    print()
+
+    # --- NEW CODE: Prompt for credentials ---
+    print("[*] Please enter your portal credentials:")
+    manual_user = input("  Username: ").strip()
+    manual_pass = getpass.getpass("  Password: ") # getpass hides your typing!
+    
+    # Inject the typed credentials into the config memory
+    if "credentials" not in config:
+        config["credentials"] = {}
+    config["credentials"]["username"] = manual_user
+    config["credentials"]["password"] = manual_pass
     print("=" * 60)
     print()
+    # -----------------------------------------
+
     print("  [1] Submit Feedback")
     print("  [2] Sync Biometric Attendance")
     print("  [3] Exit")
